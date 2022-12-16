@@ -1,6 +1,5 @@
 const url = `https://pokeapi.co/api/v2/pokemon/?limit=100`;
 const cards = document.querySelector(".cards");
-// const url = `https://pokeapi.co/api/v2/pokemon/ditto`;
 async function pokemonApi() {
   try {
     const response = await fetch(url);
@@ -25,4 +24,3 @@ async function pokemonApi() {
   }
 }
 pokemonApi();
-// const url = `https://pokeapi.co/api/v2/pokemon?limit=150&offset=0`;
