@@ -15,11 +15,11 @@ async function pokemonApi() {
     console.log(property);
 
     property.forEach((element) => {
-      // const urlArr = pokemon.url.split("/");
-      // const id = (urlArr.pop(), urlArr.pop());
+      const urlArr = element.url.split("/");
+      const id = (urlArr.pop(), urlArr.pop());
       cards.innerHTML += `<p>${element.name}<p/>
                           <p>${element.url}<p/>
-                           <img src="" alt=""> `;
+                           <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${id}.svg" alt=""> `;
     });
   } catch (error) {
     console.log("Fetch error: ", error);
