@@ -17,9 +17,8 @@ async function pokemonApi() {
     property.forEach((element) => {
       const urlArr = element.url.split("/");
       const id = (urlArr.pop(), urlArr.pop());
-      cards.innerHTML += `<p>${element.name}<p/>
-                          <p>${element.url}<p/>
-                           <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${id}.svg" alt=""> `;
+      cards.innerHTML += `<h1 class="name-poke">${element.name}</h1>
+                           <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${id}.svg" alt="" class = "pokeimg"/> `;
     });
   } catch (error) {
     console.log("Fetch error: ", error);

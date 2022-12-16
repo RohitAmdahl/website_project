@@ -1,0 +1,8 @@
+.pokeimg {
+  max-width: 200px;
+  width: 100%;
+}
+
+.name-poke {
+  text-transform: capitalize;
+}
