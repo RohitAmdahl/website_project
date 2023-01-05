@@ -1,4 +1,4 @@
-const url = `https://pokeapi.co/api/v2/pokemon/?limit=100`;
+const url = `https://pokeapi.co/api/v2/pokemon/?limit=150`;
 const cards = document.querySelector(".cards");
 async function pokemonApi() {
   try {
