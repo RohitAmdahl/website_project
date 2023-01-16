@@ -1,0 +1,26 @@
+{
+  "name": "website_project",
+  "version": "0.0.1",
+  "description": "e-commerce,",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RohitAmdahl/website_project.git"
+  },
+  "keywords": [
+    "js",
+    "css",
+    "fremworks",
+    "html",
+    "e-commerce"
+  ],
+  "author": "rohit kumar <rohit_designer@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RohitAmdahl/website_project/issues"
+  },
+  "homepage": "https://github.com/RohitAmdahl/website_project#readme"
+}
