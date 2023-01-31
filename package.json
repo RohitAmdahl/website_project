@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/RohitAmdahl/website_project/issues"
   },
-  "homepage": "https://github.com/RohitAmdahl/website_project#readme"
+  "homepage": "https://github.com/RohitAmdahl/website_project#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
 }

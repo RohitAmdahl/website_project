@@ -21,7 +21,7 @@ async function pokemonApi() {
       console.log(urlArr);
       const id = (urlArr.pop(), urlArr.pop());
       console.log(id);
-      cards.innerHTML += `<h1 class="name-poke">${element.name}</h1>
+      cards.innerHTML += `<h1 class="name-poke text-sky-900">${element.name}</h1>
                              <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${id}.svg" alt="" class = "pokeimg"/> `;
     });
   } catch (error) {
