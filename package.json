@@ -4,7 +4,9 @@
   "description": "e-commerce,",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/css/tailwind.css -o ./dist/output.css",
+    "watch": "npx tailwindcss -i ./src/css/tailwind.css -o ./dist/output.css --watch & live-server"
   },
   "repository": {
     "type": "git",
