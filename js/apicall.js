@@ -22,7 +22,7 @@ async function pokemonApi() {
       const id = (urlArr.pop(), urlArr.pop());
       console.log(id);
       cards.innerHTML += `<h1 class="name-poke text-sky-900 block text-lg">${element.name}</h1>
-                             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${id}.svg" alt="" class="object-contain h-48 w-96"/> `;
+                             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${id}.svg" alt="" class="object-contain h-48 w-96 col-span-1 "/> `;
     });
   } catch (error) {
     console.log("Fetch error: ", error);
